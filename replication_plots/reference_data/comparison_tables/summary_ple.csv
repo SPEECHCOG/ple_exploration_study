@@ -1,0 +1,5 @@
+"Capability","infant_type","7.5","9","10.5","12"
+"Tone discriminatoin","full-term","yes","yes","no","no"
+"Tone discriminatoin","preterm","yes","yes","yes","no"
+"Phonotactics preference","full-term","no","no","yes","yes"
+"Phonotactics preference","preterm","no","no","yes","yes"

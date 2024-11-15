@@ -1,0 +1,39 @@
+log_path: "logs/run1/cpc/sanity_check_original_english.log"
+input_features:
+  folder_original: "../../data/features_logmel_40/EN"
+  folder_filtered: "../../data/features_logmel_40/EN_filtered2"
+  val_dataset: "./configurations/dataset/EN_validation_set_1.csv"
+  train_dataset: "./configurations/dataset/EN_train_set_1.csv"
+  num_features: 40
+  crop: on
+model:
+  output_path: "runs/run1/cpc/sanity_check_original_english"
+  checkpoint_path: null
+  profile: "sanity_check_original"
+  checkpoints:
+    save_initial_checkpoint: on
+    save_last_checkpoint: on
+    custom_checkpoints: [43.7, 223.9, 652.5, 783, 913.5, 1044, 1566]
+    frequency_high_resolution: 4000
+    frequency_low_resolution: 4000
+    overall_frequency: 4000
+    max_low_resolution: 10000
+  backup:
+    resume_checkpoint_name: null
+    save_freq: 22500
+  tensorboard:
+    update_freq: 22500
+  parameters:
+    type: "cpc"
+    batch_size: 8
+    latent_dim: 512
+    sample_size: 200
+    learning_rate: 0.00001
+    specific:
+      encoder_layers: 3
+      encoder_units: 512
+      encoder_dropout: 0.0
+      gru_units: 256
+      dropout: 0.0
+      negative_samples: 128
+      steps: 12

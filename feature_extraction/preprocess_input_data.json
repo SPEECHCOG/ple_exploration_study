@@ -1,0 +1,16 @@
+{
+  "audios_path": "./path_to_audios",
+  "extensions": [".flac", ".wav"],
+  "shuffle_files": false,
+  "output_path": "./path_to_output_features",
+  "sample_length": 200,
+  "window_length": 0.025,
+  "window_shift": 0.01,
+  "num_features": 40,
+  "deltas": false,
+  "deltas_deltas": false,
+  "cmvn": false,
+  "name": "logmel",
+  "target_sampling_freq": 16000,
+  "replacement": false
+}
