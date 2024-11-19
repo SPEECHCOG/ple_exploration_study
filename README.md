@@ -181,4 +181,4 @@ James Hillenbrand, Laura A. Getty, Michael J. Clark, and Kimberlee Wheeler , "Ac
 María Andrea Cruz Blandón, Nayeli Gonzalez-Gomez, Marvin Lavechin, and Okko Räsänen. (2024). Simulating Prenatal Language Exposure in Computational Models: An Exploration Study. Submitted
 
 ## Contact
-If you find any issue please report it on the issues section in this repository. Further comments can be sent to maria <dot> cruzblandon <at> tuni <dot> fi
+If you find any issue please report it on the issues section in this repository. Further comments can be sent to `maria <dot> cruzblandon <at> tuni <dot> fi`
